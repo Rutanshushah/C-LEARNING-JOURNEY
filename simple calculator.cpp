@@ -19,12 +19,12 @@ int main(){
         case'*': cout<<"result="<<a*b;
         break;
         case'/':  if (b!=0)
-        cout<<"result="<<(float)a/b;
+                cout<<"result="<<(float)a/b;
         else
-        cout<<"cannot divide by zero!";
+                cout<<"cannot divide by zero!";
         break;
-        befault:
-        cout<<"invalid operator!";
+        default:
+                cout<<"invalid operator!";
     }
    return 0;
 }
